@@ -17,7 +17,7 @@ zero * n    = zero
     n ^ (1 + m) = n * (n ^ m)) -}
 
 _^_ : ℕ → ℕ → ℕ
-n ^ zero  = suc zerox
+n ^ zero  = suc zero
 n ^ suc m = n * (n ^ m)
 
 
